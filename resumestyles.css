@@ -211,7 +211,7 @@ h5{
 .fa-envelope:hover{
   color:white;
 }
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 1028px) {
   .side{
     display: none;
   }
