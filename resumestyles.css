@@ -6,15 +6,15 @@ body{
   position: absolute;
 }
 
-h4{
+h5{
+  padding-top: 5px;
+  margin-bottom: 1px;
+}
+.subs{
   color:#838383;
   text-align: center;
   margin-bottom: 30px;
   font-weight: normal;
-}
-h5{
-  padding-top: 5px;
-  margin-bottom: 1px;
 }
 
 
@@ -94,13 +94,19 @@ h5{
 .education{
   background-color: #eeeeee;
   padding: 2% 0 7%;
+
 }
 .education-content{
   text-align: left;
 }
+.Skills{
+  height: 100vh;
+}
 .achievements{
+  margin-top: 5%;
   padding: 4% 0 0;
   background-color: #eeeeee;
+
 }
 .projects{
   margin: 5% auto;
@@ -143,17 +149,27 @@ h5{
 
 .row{
   margin-top:60px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
-.col-4 .col-8 {
+.col-4  {
   border-spacing: 20px;
   text-align: left;
-  margin: 5% 5%;
+
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.3rem;
+}
+.col-8{
+  border-spacing: 20px;
+  text-align: left;
+
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.3rem;
 }
 
 .bold-span{
   font-weight: bold;
+  font-family: 'Poppins', sans-serif;
 }
 .fa-map-marker{
   color: #22A39F;
@@ -173,6 +189,8 @@ h5{
 
 .col-12{
   padding: 2% 2%;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.3rem;
 }
 .col-12:hover{
   background-color: #0f3057;
@@ -205,18 +223,56 @@ h5{
   font-weight: bold;
   font-size: 1.2rem;
 }
+.fa-github{
+  padding-right: 10px;
+}
 .fa-github:hover{
   color:white;
+  padding-right: 20px;
+ }
+.fa-envelope{
+   padding-left: 10px;
  }
 .fa-envelope:hover{
   color:white;
+  padding-left: 20px;
+}
+.about-me-details-heading{
+  text-align: center;
+  font-size: 1.5rem;
+  color: #22A39F;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+.about-me-details-text{
+  font-family: helvetica;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+.col-lg-4{
+  text-align: left;
 }
 @media only screen and (max-width: 1028px) {
+  .profile-photo{
+    width: 40%;
+  }
   .side{
     display: none;
   }
   .main{
       width:90%;
+  }
+  .about-me-details-heading{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  .about-me-details-text{
+    font-size: 1.5rem;
+    text-align: center;;
+  }
+  .col-lg-4{
+    padding-bottom: 30px;
   }
 
 }
