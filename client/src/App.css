@@ -84,7 +84,7 @@ h5 {
 	margin-bottom: 20px;
 }
 .profile-photo {
-	width: 75%;
+	width: 90%;
 	border-radius: 100%;
 	border: 8px solid #e4f9f5;
 }
@@ -277,4 +277,9 @@ h5 {
 }
 ul-style {
 	padding: 7% 0;
+}
+.main .text-center {
+	text-align: center;
+	color: #838383;
+	margin: 30px;
 }

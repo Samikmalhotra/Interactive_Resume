@@ -1,4 +1,5 @@
 import React, { Fragment } from 'react'
+import me from '../img/me.jpg'
 
 const Profile = () => {
     return (
@@ -8,7 +9,7 @@ const Profile = () => {
     <div className="main">
 
       <h1 className="main-heading" data-aos="fade-right" data-aos-duration="1000">Profile</h1>
-      {/* <h4 data-aos="fade-right" data-aos-duration="1000" style="text-align:center; color:#838383; margin:30px;">I'm a front-end web developer</h4> */}
+      <h4 className="fade-right text-center" data-aos-duration="1000" >I'm a MERN stack web developer</h4>
       <hr className="main-hr"/>
       <div className="row ">
         <div className="col-lg-4 text-left" data-aos="zoom-out-right" data-aos-delay="200">
@@ -18,7 +19,7 @@ const Profile = () => {
           </p>
         </div>
         <div className="col-lg-4 text-left"  data-aos="zoom-out-down" data-aos-delay="400">
-          <img src="Samik Malhotra6.jpg" className="profile-photo" alt=''/>
+          <img src={me} className="profile-photo" alt=''/>
         </div>
         <div className="col-lg-4 text-left"  data-aos="zoom-out-left" data-aos-delay="600">
           <h4 className="about-me-details-heading">Details</h4>
