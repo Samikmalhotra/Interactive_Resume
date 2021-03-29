@@ -269,3 +269,12 @@ h5 {
 .text-left {
 	text-align: left;
 }
+.text-center {
+	text-align: center;
+}
+.achievement-margin {
+	margin: 3% 15%;
+}
+ul-style {
+	padding: 7% 0;
+}

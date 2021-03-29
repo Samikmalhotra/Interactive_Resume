@@ -4,7 +4,7 @@ const Skills = () => {
     return (
         <Fragment>
             <div class="skills">
-    <a name="skills"></a>
+    {/* <a name="skills"></a> */}
     <div class="main">
       <h1 class="main-heading" data-aos="fade-right" data-aos-duration="1000">Skills</h1>
       <i>

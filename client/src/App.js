@@ -6,6 +6,8 @@ import Profile from './components/Profile'
 import Education from './components/Education'
 import Skills from './components/Skills'
 import Achievements from './components/Achievements'
+import Projects from './components/Projects'
+
 
 const App = () => {
   return (
@@ -16,6 +18,7 @@ const App = () => {
       <Education/>
       <Skills/>
       <Achievements/>
+      <Projects/>
     </Fragment>
   );
 }
