@@ -265,3 +265,7 @@ h5 {
 		padding-bottom: 30px;
 	}
 }
+
+.text-left {
+	text-align: left;
+}
