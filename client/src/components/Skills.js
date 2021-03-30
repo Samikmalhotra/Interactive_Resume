@@ -11,6 +11,11 @@ const Skills = () => {
         <h4 className="subs" data-aos="fade-right" data-aos-duration="1000">"What really matters, is the depth of your heart <br />and the strength of your character"</h4>
       </i>
       <hr className="main-hr"/>
+
+      <p>
+        Technical Skills
+      </p>
+
       <div className="row" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="300">
         <div className="col-lg-2 col-md-2 col-sm-3">
           <i className="devicon-html5-plain-wordmark colored"></i>
