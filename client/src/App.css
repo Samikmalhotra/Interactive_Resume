@@ -283,3 +283,35 @@ ul-style {
 	color: #838383;
 	margin: 30px;
 }
+.skills .colored {
+	font-size: 4rem;
+	margin: auto;
+	text-align: center;
+	filter: none;
+	transition: 0.3s;
+}
+.skills .colored:hover {
+	filter: saturate(2);
+	transform: translateY(50px);
+}
+.skills .col-lg-2 {
+	text-align: center;
+}
+
+canvas {
+	display: block;
+	vertical-align: bottom;
+} /* ---- particles.js container ---- */
+#particles-js {
+	width: 100vw;
+	height: 100vh;
+	background-color: #151019;
+	background-image: url("");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 50% 50%;
+}
+canvas .particles-js-canvas-el {
+	position: absolute;
+	top: 0;
+}

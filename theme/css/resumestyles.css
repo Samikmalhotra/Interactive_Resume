@@ -275,6 +275,7 @@ h5 {
 }
 .skills .colored:hover {
 	filter: saturate(2);
+	transform: translateY(50px);
 }
 .skills .col-lg-2 {
 	text-align: center;
