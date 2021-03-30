@@ -279,3 +279,21 @@ h5 {
 .skills .col-lg-2 {
 	text-align: center;
 }
+
+canvas {
+	display: block;
+	vertical-align: bottom;
+} /* ---- particles.js container ---- */
+#particles-js {
+	width: 100vw;
+	height: 100vh;
+	background-color: #151019;
+	background-image: url("");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 50% 50%;
+}
+canvas .particles-js-canvas-el {
+	position: absolute;
+	top: 0;
+}
